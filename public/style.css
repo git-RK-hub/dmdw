@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(#4c4a4c, #f1f3f1);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+.header {
+  width: 98%;
+  height: 50px;
+  position: absolute;
+  top: 3%;
+  left: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  z-index: 100;
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 23px;
+  margin: 20px 0px 0px 40px;
+  letter-spacing: 5px;
+}
+.nav-links {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 14px 0px 20px;
+  letter-spacing: 5px;
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-logo a,
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.first {
+  width: 98%;
+  min-height: 120vh;
+  top: 17%;
+  left: 1%;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 8px 5px #7d7a7a;
+  border-radius: 5px;
+}
+.second {
+  width: 90%;
+  min-height: 127vh;
+  top: -6%;
+  position: absolute;
+  background-color: #363752;
+  left: 5%;
+  box-shadow: 0px 0px 8px 2px #48484e;
+  border-radius: 5px;
+}
+.third {
+  width: 88%;
+  min-height: 134vh;
+  top: -6%;
+  position: absolute;
+  left: 6%;
+  background-color: #2f2f31;
+  box-shadow: 0px 0px 8px 2px #131315;
+  border-radius: 5px;
+}
+.signupSection,
+.loginSection {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  position: absolute;
+  top: 20%;
+  flex-direction: row;
+  justify-content: center;
+}
+.welcome {
+  width: 400px;
+  height: 400px;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signupform,
+.loginform {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 280px;
+  padding: 13px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 10px;
+  outline: none;
+}
+
+.sign-button,
+.login-button {
+  background-color: rgb(48, 127, 247);
+  color: white;
+  font-size: 15px;
+  width: 280px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 13px;
+  border: 0px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 98%;
+  height: 60px;
+  left: 1%;
+  background-color: black;
+  position: absolute;
+  top: 140vh;
+  margin-top: 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.welcome-base {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Syne Mono", monospace;
+}
+
+.hi {
+  color: white;
+  line-height: 3;
+  font-size: 40px;
+}
+.next-hi {
+  color: white;
+  font-size: 20px;
+}
+
+.welcome span {
+  color: white;
+  font-size: 20px;
+  font-family: "Syne Mono", monospace;
+  margin: 20px;
+}
+.overview {
+  width: 98%;
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  min-height: auto;
+  display: grid;
+  grid-template-columns: 350px 350px;
+  padding: 20px;
+  justify-content: center;
+}
+.one,
+.one2,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  width: 300px;
+  height: 100px;
+  background-color: #a89fef;
+  margin: 5px;
+  padding: 20px 10px;
+  font-size: 17px;
+  font-weight: 600;
+  color: black;
+  overflow: hidden;
+  font-family: monospace;
+  transition: 0.5s;
+}
+
+.one {
+  background: aquamarine;
+  box-shadow: 3px 4px 5px 0px #7fffd461;
+}
+.one2 {
+  background: #e685f3a8;
+  box-shadow: 3px 4px 5px 0px #f876e22f;
+}
+.two {
+  background: aqua;
+  box-shadow: 3px 4px 5px 0px #00ffff61;
+}
+.three {
+  background: greenyellow;
+  box-shadow: 3px 4px 5px 0px #adff2f6b;
+}
+.four {
+  background: #f9c443;
+  box-shadow: 3px 4px 5px 0px #f9c4437a;
+}
+.five {
+  background: #a89fef;
+  box-shadow: 3px 4px 5px 0px #a89fef85;
+}
+.six {
+  background: #9dff6e;
+  box-shadow: 3px 4px 5px 0px #9dff6e7d;
+}
+.seven {
+  background: #fba03c;
+  box-shadow: 3px 4px 5px 0px #fba03c75;
+}
+.eight {
+  background: #ef1ac8;
+  box-shadow: 3px 4px 5px 0px #ef1ac880;
+}
+
+.one:hover,
+.one2:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover,
+.seven:hover,
+.eight:hover {
+  transform: scale(1.1);
+}

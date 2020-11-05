@@ -1,0 +1,27 @@
+{
+  "name": "basicframe",
+  "version": "1.0.0",
+  "description": "frame",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "watch:js": "parcel watch ./public/script.js --out-dir ./public --out-file bundle.js",
+    "build:js": "parcel build ./public/script.js --out-dir ./public --out-file bundle.js"
+  },
+  "author": "Rishi",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.0",
+    "validator": "^13.1.17"
+  }
+}

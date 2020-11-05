@@ -1,0 +1,15 @@
+.header
+    .nav-logo 
+        a(href="/") Miner
+    if (user)
+      ul.nav-links
+        li
+            a(href="/") Logout
+    else
+        ul.nav-links
+            li
+                a(href="/login") Login
+            li
+                p(style="color: white;") |
+            li
+                a(href="/signup") Signup 

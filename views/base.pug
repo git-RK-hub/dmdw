@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/style.css" type="text/css")
+        link(rel="stylesheet", href="/lightbox.min.css")
+        script(src="/lightbox-plus-jquery.min.js" type="text/javascript")
+        link(href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet")
+        title Data mining
+    body    
+        .first
+            .second
+                .third
+                    include _header
+                    block content
+                        .welcome-base
+                            span(class="hi") Welcome ;)
+                            span(class="next-hi") Please Signup/Login to Continue
+            
+        include _footer
+
+        script(src="/bundle.js")

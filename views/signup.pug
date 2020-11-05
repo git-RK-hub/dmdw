@@ -1,0 +1,14 @@
+extends base
+
+block content
+    .signupSection
+        .welcome
+            span(style="font-size:30px;") Hi there ;)
+            span Please Signup if you're new user
+        .signup
+            form.signupform
+                input(type="text", name="name" id="name",placeholder="Name" required)
+                input(type="email", name="email" id="email", placeholder="Email" required)
+                input(type="password", name="password" id="password" placeholder="Password" required)
+                input(type="password", name="confirmPassword" id="confirmPassword" placeholder="Confirm password" required)
+                button(class="sign-button" id="signup") Signup
